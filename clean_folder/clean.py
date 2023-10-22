@@ -71,7 +71,7 @@ def scan(folder: Path):
                 scan(item)
             continue
 
-        # Робота з файлом
+        # Робота з файло
         extension = get_extension(item.name)  # беремо розширення файлу
         full_name = folder / item.name  # беремо повний шлях до файлу
         if not extension:
